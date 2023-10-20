@@ -19,11 +19,11 @@ public class SwaggerConfig {
                         .termsOfService("Termo de uso: Open Source")
                         .license(new License()
                                 .name("Apache 2.0")
-                                .url("https://www.seusite.com.br")
+                                .url("http://www.seusite.com.br")
                         )
                 ).externalDocs(
                         new ExternalDocumentation()
                                 .description("Seu nome")
-                                .url("https://www.seusite.com.br"));
+                                .url("http://www.seusite.com.br"));
     }
 }
